@@ -59,4 +59,5 @@ def full_suctp(W, M, G, O, H, A, C: dict, Cf, D, p, partition):
                 for t in range(periods) for s in range(scenarios)]
     suctp_env.variables.add(names = y_names, types=suctp_env.variables.type.continuous, obj = Cf)
 
+    #add the constarinst of the model
     
